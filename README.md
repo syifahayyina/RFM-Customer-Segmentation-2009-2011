@@ -21,14 +21,14 @@ This Online Retail II data set contains all the transactions occurring for a UK-
 6. Evaluate top geographic markets and high-value individual customers driving revenue
 
 ## RFM Segment
-| Segment | Rule | Customers |
+| Segment | Rule | Description |
 |---|---|---|
-| Champion | R 4-5, F 4-5 | 1,228 |
-| Loyal | R 3-5, F 3-5, not Champion | 1,350 |
-| New | R 4-5, F 1-2 | 509 |
-| At Risk | R 1-2, F 3-5 | 711 |
-| Lost | R 1-2, F 1-2 | 1,631 |
-| Needs Attention | R 3, F 1-2 | 423 |
+| Champion | R 4-5, F 4-5 | Bought recently and buy very frequently |
+| Loyal | R 3-5, F 3-5 | Buy regularly and remain active |
+| New | R 4-5, F 1-2 | Bought recently, but have low purchase frequency |
+| At Risk | R 1-2, F 3-5 | Used to buy frequently, but have not returned for a long time |
+| Lost | R 1-2, F 1-2 | Last purchased a long time ago with low frequency |
+| Needs Attention | R 3, F 1-2 | Moderate recency with low purchase frequency |
 
 ## Visualizations Included
 - KPI cards : Total Revenue, Total Customers, and Purchase Invoices
